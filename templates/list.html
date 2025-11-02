@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>All Expenses</h1>
+
+<table class="table">
+  <thead>
+    <tr><th>ID</th><th>Date</th><th>Amount</th><th>Category</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  {% for e in expenses %}
+    <tr>
+      <td>{{ e.id }}</td>
+      <td>{{ e.date }}</td>
+      <td>₹ {{ '%.2f'|format(e.amount) }}</td>
+      <td>{{ e.category }}</td>
+      <td>{{ e.description }}</td>
+    </tr>
+  {% else %}
+    <tr><td colspan="5">No expenses found.</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
+
+
+

@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Summary</h1>
+
+<form method="get" class="form-inline">
+  <label>Period
+    <select name="period" onchange="this.form.submit()">
+      <option value="day" {% if period=='day' %}selected{% endif %}>Day</option>
+      <option value="week" {% if period=='week' %}selected{% endif %}>Week</option>
+      <option value="month" {% if period=='month' %}selected{% endif %}>Month</option>
+      <option value="all" {% if period=='all' %}selected{% endif %}>All</option>
+    </select>
+  </label>
+</form>
+
+<div class="card">
+  <h3>Total</h3>
+  <div class="big">₹ {{ '%.2f'|format(summary.total) }}</div>
+</div>
+
+<h3>By Category</h3>
+<ul>
+  {% for k,v in summary.by_category.items() %}
+  <li>{{ k }} — ₹ {{ '%.2f'|format(v) }}</li>
+  {% else %}
+  <li>No data</li>
+  {% endfor %}
+</ul>
+{% endblock %}
+
+
+

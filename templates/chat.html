@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Chat Bot</h1>
+
+<form method="post" class="form-inline">
+  <input type="text" name="message" placeholder="e.g., spent 120 on taxi yesterday" value="{{ user_text or '' }}" style="width:70%" />
+  <button type="submit">Send</button>
+  </form>
+
+{% if response %}
+  <div class="chat">
+    <div class="user">You: {{ user_text }}</div>
+    <div class="bot">Bot: {{ response }}</div>
+  </div>
+{% endif %}
+
+<p class="muted">Tip: Ask for summary (today/week/month) or say "predict".</p>
+{% endblock %}
+
+
+

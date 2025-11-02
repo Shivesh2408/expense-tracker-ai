@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Predict Next Month</h1>
+
+<form method="get" class="form-inline">
+  <label>Months back
+    <input type="number" name="months" min="2" max="24" value="{{ months }}" />
+  </label>
+  <button type="submit">Predict</button>
+  </form>
+
+<div class="card">
+  <h3>Total (predicted)</h3>
+  <div class="big">₹ {{ '%.2f'|format(forecast.total_next_month) }}</div>
+  </div>
+
+<h3>Per Category (predicted)</h3>
+<ul>
+  {% for k,v in forecast.per_category_next_month.items() %}
+  <li>{{ k }} — ₹ {{ '%.2f'|format(v) }}</li>
+  {% else %}
+  <li>Not enough data</li>
+  {% endfor %}
+</ul>
+{% endblock %}
+
+
+
