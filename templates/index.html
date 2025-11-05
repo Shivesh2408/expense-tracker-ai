@@ -1,52 +1,59 @@
 {% extends 'base.html' %}
 {% block content %}
-<h1>Dashboard</h1>
+<h1>📊 Dashboard</h1>
 
 <section class="cards">
   <div class="card">
-    <h3>This Month Total</h3>
-    <div class="big">₹ {{ '%.2f'|format(summary.total) }}</div>
+    <h3>💰 This Month Total</h3>
+    <div class="big">₹{{ '%.2f'|format(summary.total) }}</div>
   </div>
   <div class="card">
-    <h3>Next Month (Predicted)</h3>
-    <div class="big">₹ {{ '%.2f'|format(forecast.total_next_month) }}</div>
+    <h3>🔮 Next Month (Predicted)</h3>
+    <div class="big">₹{{ '%.2f'|format(forecast.total_next_month) }}</div>
   </div>
   <div class="card">
-    <h3>Top Categories</h3>
+    <h3>📈 Top Categories</h3>
     <ul>
     {% for k,v in summary.by_category.items()|list|sort(attribute=1, reverse=True) %}
-      <li>{{ k }} — ₹ {{ '%.2f'|format(v) }}</li>
+      <li>{{ k }} — <span class="amount">₹{{ '%.2f'|format(v) }}</span></li>
     {% else %}
-      <li>No data yet</li>
+      <li class="muted">No data yet</li>
     {% endfor %}
     </ul>
   </div>
   <div class="card">
-    <h3>Predicted (Per Category)</h3>
+    <h3>🎯 Predicted (Per Category)</h3>
     <ul>
     {% for k,v in forecast.per_category_next_month.items() %}
-      <li>{{ k }} — ₹ {{ '%.2f'|format(v) }}</li>
+      <li>{{ k }} — <span class="amount">₹{{ '%.2f'|format(v) }}</span></li>
     {% else %}
-      <li>Not enough data</li>
+      <li class="muted">Not enough data</li>
     {% endfor %}
     </ul>
   </div>
 </section>
 
 <section>
-  <h2>Recent</h2>
+  <h2>📝 Recent Expenses</h2>
   <table class="table">
-    <thead><tr><th>Date</th><th>Amount</th><th>Category</th><th>Description</th></tr></thead>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Amount</th>
+        <th>Category</th>
+        <th>Description</th>
+      </tr>
+    </thead>
     <tbody>
       {% for e in expenses %}
       <tr>
         <td>{{ e.date }}</td>
-        <td>₹ {{ '%.2f'|format(e.amount) }}</td>
-        <td>{{ e.category }}</td>
+        <td><span class="amount">₹{{ '%.2f'|format(e.amount) }}</span></td>
+        <td><span class="category-badge">{{ e.category }}</span></td>
         <td>{{ e.description }}</td>
       </tr>
       {% else %}
-      <tr><td colspan="4">No expenses yet.</td></tr>
+      <tr><td colspan="4" class="muted" style="text-align: center; padding: 32px;">No expenses yet. <a href="{{ url_for('add') }}" style="color: var(--accent-2);">Add one!</a></td></tr>
       {% endfor %}
     </tbody>
   </table>

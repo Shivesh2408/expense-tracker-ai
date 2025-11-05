@@ -1,26 +1,44 @@
 {% extends 'base.html' %}
 {% block content %}
-<h1>All Expenses</h1>
+<h1>📋 All Expenses</h1>
+
+{% if expenses %}
+<div class="card" style="margin-bottom: 20px; padding: 16px;">
+  <strong>Total: {{ expenses|length }} expense(s)</strong>
+</div>
+{% endif %}
 
 <table class="table">
   <thead>
-    <tr><th>ID</th><th>Date</th><th>Amount</th><th>Category</th><th>Description</th></tr>
+    <tr>
+      <th>ID</th>
+      <th>Date</th>
+      <th>Amount</th>
+      <th>Category</th>
+      <th>Description</th>
+    </tr>
   </thead>
   <tbody>
   {% for e in expenses %}
     <tr>
-      <td>{{ e.id }}</td>
+      <td>#{{ e.id }}</td>
       <td>{{ e.date }}</td>
-      <td>₹ {{ '%.2f'|format(e.amount) }}</td>
-      <td>{{ e.category }}</td>
+      <td><span class="amount">₹{{ '%.2f'|format(e.amount) }}</span></td>
+      <td><span class="category-badge">{{ e.category }}</span></td>
       <td>{{ e.description }}</td>
     </tr>
   {% else %}
-    <tr><td colspan="5">No expenses found.</td></tr>
+    <tr>
+      <td colspan="5" class="muted" style="text-align: center; padding: 48px;">
+        No expenses found. <a href="{{ url_for('add') }}" style="color: var(--accent-2);">Add your first expense!</a>
+      </td>
+    </tr>
   {% endfor %}
   </tbody>
 </table>
 {% endblock %}
+
+
 
 
 

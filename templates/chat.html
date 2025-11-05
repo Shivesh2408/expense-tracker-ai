@@ -1,21 +1,30 @@
 {% extends 'base.html' %}
 {% block content %}
-<h1>Chat Bot</h1>
+<h1>💬 Chat Bot</h1>
 
 <form method="post" class="form-inline">
-  <input type="text" name="message" placeholder="e.g., spent 120 on taxi yesterday" value="{{ user_text or '' }}" style="width:70%" />
+  <input type="text" name="message" placeholder="e.g., spent 120 on taxi yesterday" value="{{ user_text or '' }}" style="width:70%" autofocus />
   <button type="submit">Send</button>
-  </form>
+</form>
 
 {% if response %}
   <div class="chat">
     <div class="user">You: {{ user_text }}</div>
-    <div class="bot">Bot: {{ response }}</div>
+    <div class="bot">Bot: {{ response|replace('\n', '<br>')|safe }}</div>
   </div>
 {% endif %}
 
-<p class="muted">Tip: Ask for summary (today/week/month) or say "predict".</p>
+<div class="muted" style="margin-top: 16px; padding: 12px; background: var(--panel); border-radius: 8px;">
+  <strong>💡 Tips:</strong><br>
+  • Add expense: "spent 100 on food", "add 50 for taxi"<br>
+  • View summary: "show summary", "total this month"<br>
+  • List expenses: "list expenses", "show food expenses"<br>
+  • Predictions: "predict next month", "forecast"<br>
+  • Get help: "help" or "what can you do"
+</div>
 {% endblock %}
+
+
 
 
 
