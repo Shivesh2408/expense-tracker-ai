@@ -1,0 +1,52 @@
+{
+  "Food": [
+    "food",
+    "meal",
+    "restaurant",
+    "cafe",
+    "grocer",
+    "pizza",
+    "burger"
+  ],
+  "Travel": [
+    "uber",
+    "ola",
+    "taxi",
+    "bus",
+    "train",
+    "flight",
+    "fuel",
+    "petrol"
+  ],
+  "Shopping": [
+    "amazon",
+    "flipkart",
+    "mall",
+    "shop",
+    "clothes",
+    "electronics"
+  ],
+  "Bills": [
+    "electric",
+    "water",
+    "wifi",
+    "internet",
+    "mobile",
+    "recharge",
+    "rent"
+  ],
+  "Entertainment": [
+    "movie",
+    "netflix",
+    "spotify",
+    "game"
+  ],
+  "Health": [
+    "doctor",
+    "pharmacy",
+    "medicine",
+    "hospital",
+    "gym"
+  ],
+  "Other": []
+}

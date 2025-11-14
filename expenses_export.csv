@@ -1,0 +1,207 @@
+id,date,amount,description,category
+90,2025-05-10,80.25,Groceries from supermarket,Food
+169,2025-05-13,2737.2,Water bill,Bills
+190,2025-05-13,283.8,Airport taxi,Travel
+26,2025-05-15,166.84,Ola ride home,Travel
+4,2025-05-16,1499.16,Video game,Entertainment
+109,2025-05-18,2329.78,Pharmacy medicine,Health
+2,2025-05-19,4709.94,Retail store,Shopping
+6,2025-05-20,755.15,Bus ticket,Travel
+70,2025-05-20,300.96,Petrol station,Travel
+174,2025-05-20,55.08,Burger at McDonald's,Food
+52,2025-05-21,326.87,Airport taxi,Travel
+175,2025-05-21,2837.6,Doctor visit,Health
+114,2025-05-22,1711.66,Mobile recharge,Bills
+155,2025-05-23,379.08,Parking fee,Travel
+178,2025-05-23,1094.94,Burger at McDonald's,Food
+29,2025-05-24,2416.52,Book store,Shopping
+28,2025-05-25,1186.01,Medical checkup,Health
+37,2025-05-25,3678.98,Utility bill,Bills
+59,2025-05-26,2404.26,Gym membership,Health
+79,2025-05-27,933.36,Mall shopping,Shopping
+123,2025-05-27,806.25,Spotify premium,Entertainment
+33,2025-05-30,3532.25,Department store,Shopping
+88,2025-05-30,1727.65,Netflix subscription,Entertainment
+196,2025-05-30,3027.49,Monthly subscription,Bills
+20,2025-06-01,214.88,Shopping spree,Shopping
+198,2025-06-03,2737.55,Health insurance,Health
+18,2025-06-04,2314.27,Electronics shopping,Shopping
+38,2025-06-05,612.28,Dental checkup,Health
+93,2025-06-05,1288.32,Fast food meal,Food
+39,2025-06-06,1264.48,Medicine purchase,Health
+181,2025-06-06,2561.16,Rent payment,Bills
+135,2025-06-08,345.25,Train ticket,Travel
+152,2025-06-09,643.99,Unknown purchase,Other
+115,2025-06-10,910.88,Entertainment,Entertainment
+191,2025-06-12,928.98,Other purchase,Other
+71,2025-06-13,2947.56,Shopping spree,Shopping
+24,2025-06-15,498.89,Other purchase,Other
+55,2025-06-15,180.56,Movie night,Entertainment
+111,2025-06-15,133.92,Burger at McDonald's,Food
+177,2025-06-16,156.94,Random expense,Other
+22,2025-06-17,2827.49,Pharmacy medicine,Health
+62,2025-06-17,258.91,Gas bill,Bills
+3,2025-06-18,515.37,Gas bill,Bills
+17,2025-06-19,273.84,Other purchase,Other
+44,2025-06-19,411.13,Internet bill,Bills
+19,2025-06-20,3602.01,Internet bill,Bills
+60,2025-06-20,74.72,General expense,Other
+122,2025-06-20,1056.2,Internet plan,Bills
+125,2025-06-22,4260.9,Electronics shopping,Shopping
+116,2025-06-25,1458.56,Internet bill,Bills
+80,2025-06-27,606.01,Groceries from supermarket,Food
+128,2025-06-29,1841.48,Medical checkup,Health
+10,2025-06-30,1067.69,Movie night,Entertainment
+96,2025-07-01,2968.38,Health insurance,Health
+91,2025-07-02,1873.22,Internet bill,Bills
+130,2025-07-03,2835.42,Utility bill,Bills
+54,2025-07-04,1400.95,Theater tickets,Entertainment
+163,2025-07-04,407.81,Vitamin supplements,Health
+173,2025-07-06,461.58,Random expense,Other
+95,2025-07-07,733.12,Shopping spree,Shopping
+126,2025-07-07,1092.09,Amazon purchase,Shopping
+194,2025-07-07,2990.41,Internet bill,Bills
+66,2025-07-09,286.2,General expense,Other
+143,2025-07-09,1129.47,Video game,Entertainment
+168,2025-07-09,457.62,Airport taxi,Travel
+13,2025-07-10,551.1,General shopping,Other
+12,2025-07-11,1386.45,Grocery shopping,Food
+120,2025-07-11,2412.95,Shopping spree,Shopping
+189,2025-07-11,541.92,Burger at McDonald's,Food
+150,2025-07-12,761.66,Electronics shopping,Shopping
+7,2025-07-13,1158.86,Movie tickets,Entertainment
+34,2025-07-13,683.02,Breakfast sandwich,Food
+195,2025-07-14,4933.41,Monthly subscription,Bills
+72,2025-07-16,231.04,Other items,Other
+140,2025-07-16,318.06,Taxi fare,Travel
+16,2025-07-17,1647.76,Gas bill,Bills
+106,2025-07-19,4124.21,Flipkart order,Shopping
+30,2025-07-21,141.6,Clothes from mall,Shopping
+113,2025-07-21,758.36,General shopping,Other
+176,2025-07-21,56.32,Petrol station,Travel
+51,2025-07-22,743.19,Parking fee,Travel
+192,2025-07-23,458.88,Dental checkup,Health
+102,2025-07-24,1559.57,Hospital bill,Health
+41,2025-07-25,1137.38,Breakfast sandwich,Food
+105,2025-07-26,2596.44,Electricity bill,Bills
+43,2025-07-28,813.91,Streaming service,Entertainment
+81,2025-07-29,845.64,Entertainment,Entertainment
+86,2025-07-29,860.96,Random expense,Other
+172,2025-07-29,2344.65,Clothes from mall,Shopping
+35,2025-07-30,559.65,Entertainment,Entertainment
+156,2025-07-30,1993.61,Video game,Entertainment
+64,2025-07-31,1780.28,Electricity bill,Bills
+180,2025-07-31,2764.85,Gas bill,Bills
+136,2025-08-02,565.19,Utility bill,Bills
+187,2025-08-02,1523.13,Gym membership,Health
+49,2025-08-03,1062.48,Food delivery,Food
+157,2025-08-03,679.13,Metro card recharge,Travel
+42,2025-08-05,130.29,Fuel for car,Travel
+97,2025-08-06,1529.05,Entertainment,Entertainment
+99,2025-08-06,1847.27,Entertainment expense,Entertainment
+167,2025-08-06,448.82,Lunch at food court,Food
+92,2025-08-08,119.26,Netflix subscription,Entertainment
+5,2025-08-09,1310.85,Pizza from Domino's,Food
+9,2025-08-10,1712.16,Music subscription,Entertainment
+165,2025-08-11,1436.22,Utility bill,Bills
+197,2025-08-13,2904.47,Electricity bill,Bills
+53,2025-08-14,528.49,Petrol station,Travel
+69,2025-08-14,1018.98,Theater tickets,Entertainment
+107,2025-08-14,2107.5,Retail store,Shopping
+112,2025-08-14,1460.7,Grocery shopping,Food
+119,2025-08-16,1823.66,Music subscription,Entertainment
+141,2025-08-16,226.48,Fuel for car,Travel
+184,2025-08-18,714.59,Other items,Other
+147,2025-08-19,346.26,Other items,Other
+193,2025-08-19,776.74,Miscellaneous,Other
+23,2025-08-20,446.68,Book store,Shopping
+14,2025-08-21,583.18,Doctor visit,Health
+121,2025-08-21,1127.53,Gift purchase,Shopping
+151,2025-08-22,1840.7,Music subscription,Entertainment
+183,2025-08-24,756.2,Misc expense,Other
+84,2025-08-25,4609.74,Shopping spree,Shopping
+160,2025-08-27,562.96,Other items,Other
+61,2025-08-28,3275.71,Clothes from mall,Shopping
+82,2025-08-29,1602.69,Mobile recharge,Bills
+200,2025-08-31,1394.56,Groceries from supermarket,Food
+15,2025-09-01,703.72,Unknown purchase,Other
+133,2025-09-01,213.18,Car service,Travel
+1,2025-09-02,3747.94,Electronics shopping,Shopping
+65,2025-09-02,1895.65,Online shopping,Shopping
+32,2025-09-03,3034.28,Phone bill,Bills
+48,2025-09-03,900.94,Flipkart order,Shopping
+162,2025-09-05,304.02,Music subscription,Entertainment
+45,2025-09-06,1017.23,Coffee at cafe,Food
+83,2025-09-06,332.55,Grocery shopping,Food
+132,2025-09-06,437.57,Theater tickets,Entertainment
+199,2025-09-06,2199.42,Internet bill,Bills
+8,2025-09-07,825.98,Other purchase,Other
+98,2025-09-07,1157.09,Mall shopping,Shopping
+67,2025-09-08,302.68,Taxi fare,Travel
+87,2025-09-08,1147.24,Clothes from mall,Shopping
+40,2025-09-09,541.75,General shopping,Other
+103,2025-09-10,1616.02,Hospital bill,Health
+47,2025-09-11,1207.23,Pizza from Domino's,Food
+127,2025-09-11,747.52,Fuel for car,Travel
+74,2025-09-14,488.57,General shopping,Other
+148,2025-09-15,2020.04,Hospital bill,Health
+75,2025-09-16,1873.5,Dental checkup,Health
+144,2025-09-16,1179.33,Restaurant dinner,Food
+36,2025-09-17,1795.65,Shopping spree,Shopping
+31,2025-09-18,505.99,Unknown purchase,Other
+117,2025-09-18,873.9,Pharmacy medicine,Health
+63,2025-09-19,1989.53,Gym membership,Health
+101,2025-09-19,4403.43,Water bill,Bills
+110,2025-09-19,2524.28,Book store,Shopping
+186,2025-09-20,116.98,Other purchase,Other
+164,2025-09-21,2465.53,Book store,Shopping
+100,2025-09-22,344.27,Airport taxi,Travel
+131,2025-09-23,953.15,Streaming service,Entertainment
+58,2025-09-24,393.13,General expense,Other
+149,2025-09-26,3239.99,Retail store,Shopping
+154,2025-09-28,230.74,Other items,Other
+137,2025-09-30,969.52,Health insurance,Health
+27,2025-10-01,767.81,Metro card recharge,Travel
+56,2025-10-01,1249.59,Netflix subscription,Entertainment
+161,2025-10-03,108.59,Burger at McDonald's,Food
+76,2025-10-06,1487.19,Burger at McDonald's,Food
+21,2025-10-08,764.48,General shopping,Other
+73,2025-10-08,138.9,Unknown purchase,Other
+142,2025-10-08,559.19,Theater tickets,Entertainment
+153,2025-10-08,650.19,Miscellaneous,Other
+134,2025-10-11,1021.96,Gift purchase,Shopping
+145,2025-10-11,581.07,General expense,Other
+146,2025-10-11,1710.46,Internet plan,Bills
+78,2025-10-12,214.93,Coffee at cafe,Food
+89,2025-10-12,2005.88,Hospital bill,Health
+104,2025-10-12,298.56,Random expense,Other
+94,2025-10-13,454.71,Lunch at food court,Food
+124,2025-10-13,1997.31,Gaming purchase,Entertainment
+166,2025-10-13,745.16,Car service,Travel
+188,2025-10-13,4288.05,Mobile recharge,Bills
+139,2025-10-15,1726.37,Movie tickets,Entertainment
+182,2025-10-15,819.8,Breakfast sandwich,Food
+50,2025-10-16,1374.53,Doctor visit,Health
+159,2025-10-16,384.28,Travel expenses,Travel
+46,2025-10-18,95.7,Unknown purchase,Other
+108,2025-10-19,1239.82,Dinner at restaurant,Food
+68,2025-10-20,790.04,Other items,Other
+85,2025-10-22,1896.82,Dental checkup,Health
+185,2025-10-22,3058.26,Online shopping,Shopping
+179,2025-10-25,4846.85,Department store,Shopping
+171,2025-10-26,2201.56,Health insurance,Health
+158,2025-10-27,627.56,Dinner at restaurant,Food
+138,2025-10-28,207.68,Miscellaneous,Other
+170,2025-10-28,714.33,Other purchase,Other
+118,2025-10-29,623.44,Petrol station,Travel
+57,2025-10-30,320.6,Random expense,Other
+11,2025-11-01,163.0,Parking fee,Travel
+129,2025-11-01,282.12,Ola ride home,Travel
+77,2025-11-02,1008.89,Grocery shopping,Food
+25,2025-11-05,1480.92,Monthly subscription,Bills
+201,2025-11-07,120.0,taxi,Travel
+202,2025-11-07,120.0,food,Food
+203,2025-11-13,50.0,Lunch at restaurant,Food
+204,2025-11-13,25.5,Uber ride to office,Travel
+205,2025-11-13,120.0,Netflix subscription,Entertainment
+206,2025-11-13,15.99,Pharmacy medicines,Health
